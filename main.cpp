@@ -24,8 +24,8 @@ int main() {
     cout << "\n";
     }
     for(int zeile = 0; zeile < dasDoppelte; zeile++){
-        for(int spalte = 0;spalte < dasDoppelte; spalte++){
-            if(spalte == 0 || zeile == dasDoppelte -1 || spalte == dasDoppelte -1){
+        for(int spalte = 0;spalte <= dasDoppelte; spalte++){
+            if(spalte == 0 || zeile == dasDoppelte - 1 || spalte == dasDoppelte){
                 cout << "x";
             }
             else {
